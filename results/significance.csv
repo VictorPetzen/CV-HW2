@@ -1,0 +1,7 @@
+approach_a,approach_b,only_a_correct,only_b_correct,p_value
+full_finetune,head_only,165,250,3.5e-05
+full_finetune,features_logreg,180,241,0.0034
+full_finetune,features_linear_svm,262,237,0.28
+head_only,features_logreg,135,111,0.14
+head_only,features_linear_svm,249,139,2.5e-08
+features_logreg,features_linear_svm,211,125,3.1e-06

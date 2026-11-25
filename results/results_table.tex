@@ -1,0 +1,10 @@
+\begin{tabular}{lrrcccc}
+\toprule
+Approach & Trainable params & Time (s) & Train acc & Val acc & Test acc & Test macro F1 \\
+\midrule
+Full fine-tuning & 1,555,781 & 444 & 0.999 & 0.899 & 0.841 & 0.839 \\
+Classifier head only & 628,773 & 438 & 0.996 & 0.897 & 0.864 & 0.862 \\
+Features + logistic regression & 21,349 & 31 & 0.988 & 0.876 & 0.857 & 0.855 \\
+Features + linear SVM & 21,349 & 146 & 0.999 & 0.875 & 0.834 & 0.831 \\
+\bottomrule
+\end{tabular}

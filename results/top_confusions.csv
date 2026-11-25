@@ -1,0 +1,41 @@
+approach,true,predicted,count,share_of_true_class
+full_finetune,American Pit Bull Terrier,Staffordshire Bull Terrier,23,0.23
+full_finetune,Ragdoll,Birman,15,0.15
+full_finetune,Birman,Ragdoll,12,0.12
+full_finetune,American Pit Bull Terrier,American Bulldog,12,0.12
+full_finetune,Staffordshire Bull Terrier,American Bulldog,11,0.124
+full_finetune,English Setter,English Cocker Spaniel,10,0.1
+full_finetune,Chihuahua,Shiba Inu,9,0.09
+full_finetune,Maine Coon,Bengal,9,0.09
+full_finetune,American Pit Bull Terrier,German Shorthaired,9,0.09
+full_finetune,Basset Hound,Beagle,9,0.09
+head_only,American Pit Bull Terrier,Staffordshire Bull Terrier,25,0.25
+head_only,Birman,Ragdoll,24,0.24
+head_only,American Pit Bull Terrier,American Bulldog,18,0.18
+head_only,Basset Hound,Beagle,12,0.12
+head_only,Russian Blue,British Shorthair,11,0.11
+head_only,Maine Coon,Ragdoll,11,0.11
+head_only,English Cocker Spaniel,English Setter,10,0.1
+head_only,Staffordshire Bull Terrier,American Bulldog,9,0.101
+head_only,American Pit Bull Terrier,German Shorthaired,9,0.09
+head_only,Ragdoll,Birman,9,0.09
+features_logreg,American Pit Bull Terrier,Staffordshire Bull Terrier,18,0.18
+features_logreg,Birman,Ragdoll,15,0.15
+features_logreg,Ragdoll,Birman,15,0.15
+features_logreg,American Pit Bull Terrier,American Bulldog,14,0.14
+features_logreg,English Cocker Spaniel,English Setter,13,0.13
+features_logreg,Maine Coon,Bengal,12,0.12
+features_logreg,Chihuahua,Shiba Inu,10,0.1
+features_logreg,Staffordshire Bull Terrier,American Bulldog,10,0.112
+features_logreg,Russian Blue,British Shorthair,10,0.1
+features_logreg,Maine Coon,Ragdoll,9,0.09
+features_linear_svm,American Pit Bull Terrier,American Bulldog,17,0.17
+features_linear_svm,Ragdoll,Birman,14,0.14
+features_linear_svm,Siamese,Birman,12,0.12
+features_linear_svm,Staffordshire Bull Terrier,American Bulldog,12,0.135
+features_linear_svm,Russian Blue,British Shorthair,11,0.11
+features_linear_svm,Maine Coon,Bengal,11,0.11
+features_linear_svm,Chihuahua,Shiba Inu,11,0.11
+features_linear_svm,Birman,Siamese,11,0.11
+features_linear_svm,Staffordshire Bull Terrier,American Pit Bull Terrier,11,0.124
+features_linear_svm,Birman,Ragdoll,10,0.1

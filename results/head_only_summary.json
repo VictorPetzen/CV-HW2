@@ -1,0 +1,31 @@
+{
+  "approach": "head_only",
+  "trainable_params": 628773,
+  "train_time_s": 437.9,
+  "hyperparameters": {
+    "loss": "cross-entropy",
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "scheduler": "cosine",
+    "batch_size": 32,
+    "epochs": 15
+  },
+  "selected_epoch": 12,
+  "checkpoint": "checkpoints\\head_only.pt",
+  "train_acc": 0.9962635869565217,
+  "val_acc": 0.8967391304347826,
+  "test_acc": 0.8637230853093486,
+  "test_macro_f1": 0.8623821033907952,
+  "environment": {
+    "python": "3.12.10",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "device": "cuda",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070",
+    "weights": "MobileNet_V3_Small_Weights.IMAGENET1K_V1"
+  }
+}

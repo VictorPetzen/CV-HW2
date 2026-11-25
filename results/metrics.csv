@@ -1,0 +1,5 @@
+approach,trainable_params,train_time_s,train_acc,val_acc,test_acc,test_macro_f1
+Full fine-tuning,1555781,444.5,0.9986,0.8995,0.8406,0.8386
+Classifier head only,628773,437.9,0.9963,0.8967,0.8637,0.8624
+Features + logistic regression,21349,30.8,0.9881,0.8764,0.8572,0.8554
+Features + linear SVM,21349,146.3,0.999,0.875,0.8337,0.8311
